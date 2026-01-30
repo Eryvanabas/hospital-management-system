@@ -13,7 +13,7 @@
     <div class="sidebar">
         <h4 class="text-center mb-4">Hospital</h4>
         <a href="{{ route('dashboard') }}">Dashboard</a>
-        <a href="#">Patients</a>
+        <a href="{{ route('profile') }}">Patients</a>
         <a href="#">Doctors</a>
         <a href="#">Appointments</a>
         <a href="{{ route('profile') }}">Profile</a>
